@@ -1,0 +1,39 @@
+.toDoContainer {
+  width: 75%;
+  &__inputArea {
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 15px;
+  }
+  &__input {
+    margin-right: 10px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 2px;
+    outline: none;
+    padding: 5px;
+    width: 50%;
+  }
+  &__btn {
+    color: #fff;
+    background-color: #6f48c9;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  
+  }
+  &__tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+  }
+  &__checkbox {
+    border-radius: 50%;
+  }
+}
